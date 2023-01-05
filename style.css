@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+header {
+    background-color: #FFF8F3;
+    background-image: url(resources/developer.png), url('resources/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: 4%, right bottom;
+}
+
+.navbar {
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn-primary {
+    border: none;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-contact{
+    border: 1px solid  #FD6E0A;
+    color: #FD6E0A;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* banner item */
+.banner-item {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 30px 200px;
+    background-image: url('resources/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+
+.banner-item .right h2 {
+    font-weight: 600;
+    color: #474747;
+    font-size: 45px;
+}
+
+.banner-item .left h1 {
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner-item .left p {
+    font-size: 16px;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* about me section */
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+.about {
+    margin-top: 130px;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 130px 155px;
+    border-radius: 10px;
+}
+.about .section-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.about .section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-name{
+    font-size: 20px;
+    color: #757575;
+}
+.about-info .info-description{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+}
